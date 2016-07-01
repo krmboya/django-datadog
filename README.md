@@ -15,7 +15,7 @@ python setup.py install
 Add `datadog` to your list of installed apps.
 
 ```python
-INSTALLED_APPS += ('datadog')
+INSTALLED_APPS += ('datadog',)
 ```
 
 Add the following configuration to your projects' `settings.py` file:
